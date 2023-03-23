@@ -36,7 +36,7 @@ body {
     list-style-type: none;
 }
 
-.header section ul nav li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -54,7 +54,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    
+    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
