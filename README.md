@@ -1,24 +1,195 @@
-# 01 HTML, CSS, and Git: Code Refactor
+# Horiseon Landing Page Accessibility Code Refactor
 
-## Challenges in This Course
+## Technology Used 
 
-There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
+| Technology Used         | Resource URL           | 
+| ------------- |:-------------:| 
+| HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | 
+| CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |   
+| Git | [https://git-scm.com/](https://git-scm.com/)     |  
 
-### Challenge Types 
+## Description 
 
-The two types of Challenges are the following:
+[Visit the Deployed Site](bryannguyen9.github.io.3-20-23-challenge)
 
-* **On-the-job ticket** or **feature request Challenges** give you starter code in a folder called `Develop`, which you'll modify to complete the Challenge. Odd-numbered modules follow this format.
+This project was started with the goal in mind to make this landing page more accessible to those with disabilities. This is the Horiseon Social Solution Services landing page that focuses primarily on search engine optimzation, online repuatation management, and social media marketing. The end result was a code refactoring of the landing page that created a more accessible and intuitive page that did not visually change or alter functionality. 
 
-* **Job-seeking coding assessments** or **take-home assignments** don't provide starter code. You'll build these from scratch. Even-numbered modules follow this format.
+This solves the problem of meeting accessibility standards for Horiseon as they are trying to be more impactful, accessible, and welcoming to all reaches around the world.
 
-### Challenge Elements
+In this project I learned a lot about the methodology and thinking behind code refactoring, as well as HTML semantic elements that brought extra functionality and accessibility to HTML pages.
 
-Challenges adhere to a format that's commonly used by software development teams that use **agile project management** to manage their work. Practicing this will prepare you for the workflows you'll experience as a professional full-stack web developer. 
+My project stands out because of the clean addition to nav links, section instead of div tags, and alt attributes to images that create a more dynamic experience for those with accessibility needs or that use screen readers.
 
-> **Deep Dive**: To learn more about agile, read this [Wikipedia article on agile software development](https://en.wikipedia.org/wiki/Agile_software_development).
+Again here is a link to my fully deployed website: 
+![Site Landing Page](bryannguyen9@github.io/3-20-23-challenge)
 
-Each Challenge contains the following elements:
+## Table of Contents
+
+* [Code Refactor Example](#code-refactor-example)
+* [Usage](#usage)
+* [Learning Points](#learning-points)
+* [Author Info](#author-info)
+* [Credits](#credits)
+* [License](#license)
+
+## Code Refactor Example
+
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+
+```html
+<div class="header">
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <div>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+```
+
+Converting the above non-semantic div with the class of 'header' to an appropriate [<header> semantic element](https://www.w3schools.com/html/html5_semantic_elements.asp). 
+
+```html
+      <header>
+        <h1>Hori<span class="seo">seo</span>n</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    </li>
+                    <li>
+                        <a href="#online-reputation-management">Online Reputation Management</a>
+                    </li>
+                    <li>
+                        <a href="#social-media-marketing">Social Media Marketing</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+```
+
+This change require some additional modification to the CSS selector: 
+
+```css
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+```
+
+No longer targeting the element on the page with the class of 'header' but instead the css selector targeting the 'header' element 
+
+```css
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+```
+
+<!--Ended here-->
+
+## Usage 
+
+Provide instructions and examples for use. Include screenshots as needed. 
+
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+```md
+![alt text](assets/images/screenshot.png)
+```
+
+
+## Learning Points 
+
+
+This is a good place to Explain what you Learned by creating this application.
+This is a great way to remind about all of the Complex Skills you now have.
+If the user is less experienced than you:
+They will be impressed by what you can do!
+
+If the user is more experienced than you:
+They will be impressed by what you can do!
+
+Remember, it is easy to forget exactly how Valuable and Impressive your skills are, as well as How Much You’ve Learned!
+So quantify that here!
+
+
+## Author Info
+
+```md
+### Farley Wittles 
+
+
+* [Portfolio](https://youtu.be/bHX54GCrDB4)
+* [LinkedIn](https://youtu.be/bHX54GCrDB4)
+* [Github](https://youtu.be/bHX54GCrDB4)
+```
+
+The user has looked through your whole README, and gotten familiar with your application. 
+This is where you take credit, and make it easy for them to learn more about you!
+Direct them to the following:
+- Your GitHub Profile
+- Your LinkedIn
+- Your Portfolio Website
+- And Anything Else You Want!
+
+Give credit where credit is due! 
+
+If you Pseudocode or Pair Program with someone else, give them kudos in your Contributors section!
+
+
+## Credits
+
+List your collaborators, if any, with links to their GitHub profiles.
+
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+
+If you followed tutorials, include links to those here as well.
+
+
+## License
+
+The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+
+
+---
+
+🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+
+## Features
+
+If your project has a lot of features, consider adding a heading called "Features" and listing them there.
+
+## Contributing
+
+If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
+
+## Tests
+
+Go the extra mile and write tests for your application. Then provide examples on how to run them.
+
+---
+
+© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
 * **User Story**: This is a short, simple description of a feature told from the perspective of the person who is requesting the new capability, usually a user or customer of the system. This follows an AS AN / I WANT / SO THAT format. For example, "AS A shopper visiting an online store, I WANT to place items in a shopping cart, SO THAT I can purchase them." 
 
