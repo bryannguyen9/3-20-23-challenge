@@ -152,8 +152,8 @@ This is where I read about government accessibility standards:[ADA.gov](https://
 I then had to research a lot about semantic HTML elements and these websites helped
 me the most.
 
-[W3 schools](https://www.w3schools.com/html/html_accessibility.asp)
-[Developer Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+1. [W3 schools](https://www.w3schools.com/html/html_accessibility.asp)
+2. [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
 
 These websites taught me not only different html elements but the meaning and reasoning
 behind semantic and accessible elements that I incorporated into this website
@@ -174,7 +174,7 @@ on getting into the space with projects that support both my growth, belief, and
 ## Credits
 
 # Special thanks to David Chung: 
-[His github portfolio:](https://github.com/dchung13/)
+ His github portfolio: [https://github.com/dchung13/](https://github.com/dchung13/)
 
 # Special thanks to these reference websites that taught me accessibility standards and semantic elements:
 
