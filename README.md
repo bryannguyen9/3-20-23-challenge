@@ -125,7 +125,7 @@ to create a more accessible website as a whole:
 
 
 
-![header link screenshot](./assets/headerscreenshot.png)
+![header link screenshot](./assets/headerlinksscreenshot.png)
 
 
 
