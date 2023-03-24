@@ -178,8 +178,8 @@ on getting into the space with projects that support both my growth, belief, and
 
 # Special thanks to these reference websites that taught me accessibility standards and semantic elements:
 
-[W3 schools](https://www.w3schools.com/html/html_accessibility.asp)
-[Developer Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+1. [W3 schools](https://www.w3schools.com/html/html_accessibility.asp)
+2. [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
 
 ## License
 
