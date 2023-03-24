@@ -53,7 +53,7 @@ p {
 
 /*changed height pixels to find a non-stretched image view*/
 .hero img {
-    height: 1000px;
+    height: 1200px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;

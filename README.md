@@ -99,17 +99,24 @@ header {
 
 ```
 
-<!--Ended here-->
-
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Here we see the header links and how I converted from a "header" class into an actual header tag, I also changed links and used nav tags in order
+to create a more accessible website as a whole:
 
 ```md
-![alt text](assets/images/screenshot.png)
+
+![header link screenshot](assets/images/headerscreenshot.png)
+
 ```
+
+This is a screenshot of the header links and where they lead to which is basically scrolling to the actual benefit cards further down within the website.
+I also changed the div tags into section tags as well as included alt atributes for images for those using screen readers.
+
+```md
+
+![benefit cards screenshot](assets/images/cardlinkscreenshot.png)
+
 
 
 ## Learning Points 
