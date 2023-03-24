@@ -10,7 +10,7 @@
 
 ## Description 
 
-[Visit the Deployed Site](bryannguyen9.github.io.3-20-23-challenge)
+[Visit the Deployed Site](https://bryannguyen9.github.io/3-20-23-challenge/)
 
 This project was started with the goal in mind to make this landing page more accessible to those with disabilities. This is the Horiseon Social Solution Services landing page that focuses primarily on search engine optimzation, online repuatation management, and social media marketing. The end result was a code refactoring of the landing page that created a more accessible and intuitive page that did not visually change or alter functionality. 
 
@@ -21,7 +21,7 @@ In this project I learned a lot about the methodology and thinking behind code r
 My project stands out because of the clean addition to nav links, section instead of div tags, and alt attributes to images that create a more dynamic experience for those with accessibility needs or that use screen readers.
 
 Again here is a link to my fully deployed website: 
-![Site Landing Page](bryannguyen9@github.io/3-20-23-challenge)
+[Site Landing Page](https://bryannguyen9.github.io/3-20-23-challenge/)
 
 ## Table of Contents
 
@@ -116,27 +116,27 @@ To access the live website simply go to ![Site Landing Page](bryannguyen9@github
 Here we see the header links on the landing page and how when click they lead 
 to the corresponding benefit cards lower in the site:
 
-![live site header link screenshot](assets/images/livesiteheaderlinkscreenshot.png)
+[live site header link screenshot](assets/images/livesiteheaderlinkscreenshot.png)
 
-![live site benefit card screenshot](assets/images/livesitebenefitcardscreenshot.png)
+[live site benefit card screenshot](assets/images/livesitebenefitcardscreenshot.png)
 
 Here we see the header links and how I converted from a "header" class into an actual header tag, I also changed links and used nav tags in order
 to create a more accessible website as a whole: 
 
-```md
 
-![header link screenshot](assets/images/headerscreenshot.png)
 
-```
+[header link screenshot](assets/images/headerscreenshot.png)
+
+
 
 This is a screenshot of the header links and where they lead to which is basically scrolling to the actual benefit cards further down within the website.
 I also changed the div tags into section tags as well as included alt atributes for images for those using screen readers.
 
-```md
 
-![benefit cards screenshot](assets/images/cardlinkscreenshot.png)
 
-```
+[benefit cards screenshot](assets/images/cardlinkscreenshot.png)
+
+
 
 
 
@@ -152,8 +152,8 @@ This is where I read about government accessibility standards: ![ADA.gov](https:
 I then had to research a lot about semantic HTML elements and these websites helped
 me the most.
 
-![W3 schools](https://www.w3schools.com/html/html_accessibility.asp)
-![Developer Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+[W3 schools](https://www.w3schools.com/html/html_accessibility.asp)
+[Developer Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
 
 These websites taught me not only different html elements but the meaning and reasoning
 behind semantic and accessible elements that I incorporated into this website
@@ -174,12 +174,12 @@ on getting into the space with projects that support both my growth, belief, and
 ## Credits
 
 # Special thanks to David Chung: 
-![His github portfolio:](https://github.com/dchung13/)
+[His github portfolio:](https://github.com/dchung13/)
 
 # Special thanks to these reference websites that taught me accessibility standards and semantic elements:
 
-![W3 schools](https://www.w3schools.com/html/html_accessibility.asp)
-![Developer Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+[W3 schools](https://www.w3schools.com/html/html_accessibility.asp)
+[Developer Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
 
 ## License
 
