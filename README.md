@@ -103,13 +103,13 @@ header {
 
 To clone down my repository to your computer:
 
-[1]. Access my github --here--> ![My Github](https://github.com/bryannguyen9/3-20-23-challenge)
-[2]. Clone it down to your computer by clicking the <span style="color:green">green</span>. code button
-[3]. Copy the ssh key
-[4]. Then using "git clone 'paste ssh key here'
-[5]. Type 'code .' into your terminal/gitbash to see code
+* [1]. Access my github --here--> [My Github](https://github.com/bryannguyen9/3-20-23-challenge/)
+* [2]. Clone it down to your computer by clicking the <span style="color:green">green</span>. code button
+* [3]. Copy the ssh key
+* [4]. Then using "git clone 'paste ssh key here'
+* [5]. Type 'code .' into your terminal/gitbash to see code
 
-To access the live website simply go to ![Site Landing Page](bryannguyen9@github.io/3-20-23-challenge)
+To access the live website simply go to [Site Landing Page](https://bryannguyen9@github.io/3-20-23-challenge/)
 
 ## Usage 
 
@@ -147,7 +147,7 @@ This combined with the website goal of being a more accessible website lead me
 to learn about accessibility standards that are currently regarded as the standard
 within the world of HTML and accessibility.
 
-This is where I read about government accessibility standards: ![ADA.gov](https://www.ada.gov/resources/web-guidance/)
+This is where I read about government accessibility standards:[ADA.gov](https://www.ada.gov/resources/web-guidance/)
 
 I then had to research a lot about semantic HTML elements and these websites helped
 me the most.
@@ -168,7 +168,7 @@ on getting into the space with projects that support both my growth, belief, and
 ### My links
 
 * [Portfolio](Coming Soon!)
-* [LinkedIn](www.linkedin.com/in/bryan-n-08ba768a)
+* [LinkedIn](https://linkedin.com/in/bryan-n-08ba768a)
 * [Github](https://github.com/bryannguyen9)
 
 ## Credits
