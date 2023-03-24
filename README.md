@@ -103,11 +103,11 @@ header {
 
 To clone down my repository to your computer:
 
-* [1]. Access my github --here--> [My Github](https://github.com/bryannguyen9/3-20-23-challenge/)
-* [2]. Clone it down to your computer by clicking the <span style="color:green">green</span>. code button
-* [3]. Copy the ssh key
-* [4]. Then using "git clone 'paste ssh key here'
-* [5]. Type 'code .' into your terminal/gitbash to see code
+1. Access my github --here--> [My Github](https://github.com/bryannguyen9/3-20-23-challenge/)
+2. Clone it down to your computer by clicking the <span style="color:green">green</span>. code button
+3. Copy the ssh key
+4. Then using "git clone 'paste ssh key here'
+5. Type 'code .' into your terminal/gitbash to see code
 
 To access the live website simply go to [Site Landing Page](https://bryannguyen9@github.io/3-20-23-challenge/)
 
@@ -116,16 +116,16 @@ To access the live website simply go to [Site Landing Page](https://bryannguyen9
 Here we see the header links on the landing page and how when click they lead 
 to the corresponding benefit cards lower in the site:
 
-![live site header link screenshot](assets/images/livesiteheaderlinkscreenshot.png)
+![live site header link screenshot](./assets/images/livesiteheaderlinkscreenshot.png)
 
-![live site benefit card screenshot](assets/images/livesitebenefitcardscreenshot.png)
+![live site benefit card screenshot](./assets/images/livesitebenefitcardscreenshot.png)
 
 Here we see the header links and how I converted from a "header" class into an actual header tag, I also changed links and used nav tags in order
 to create a more accessible website as a whole: 
 
 
 
-![header link screenshot](assets/images/headerscreenshot.png)
+![header link screenshot](./assets/images/headerscreenshot.png)
 
 
 
@@ -134,7 +134,7 @@ I also changed the div tags into section tags as well as included alt atributes 
 
 
 
-![benefit cards screenshot](assets/images/cardlinkscreenshot.png)
+![benefit cards screenshot](./assets/images/cardlinkscreenshot.png)
 
 
 
